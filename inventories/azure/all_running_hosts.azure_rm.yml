@@ -3,7 +3,7 @@ auth_source: env
 plain_host_names: yes
 exclude_host_filters:
 - powerstate != 'running'
-include_vm_resource_groups: rg-jonas-ansible-poc
+#include_vm_resource_groups: rg-jonas-ansible-poc
 keyed_groups:
 - prefix: tag
   key: tags
