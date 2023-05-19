@@ -15,5 +15,5 @@ keyed_groups:
 hostvar_expressions:
   ansible_host: private_ipv4_addresses | first
 conditional_groups:
-  azure_all_hosts_: true
+  azure_all_hosts: true
   azure_target_hosts: "'target' in name"
