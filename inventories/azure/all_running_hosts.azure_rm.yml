@@ -16,3 +16,4 @@ hostvar_expressions:
   ansible_host: private_ipv4_addresses | first
 conditional_groups:
   all_hosts_group: true
+  target_hosts: "'target' in name"
